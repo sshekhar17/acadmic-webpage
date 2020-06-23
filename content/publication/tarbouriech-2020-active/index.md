@@ -1,0 +1,12 @@
+---
+title: "Active Model Estimation in Markov Decision Processes"
+date: 2020-03-01
+publishDate: 2020-06-23T21:00:42.589392Z
+authors: ["Jean Tarbouriech", "Shubhanshu Shekhar", "Matteo Pirotta", "Mohammad Ghavamzadeh", "Alessandro Lazaric"]
+publication_types: ["1"]
+abstract: "We study the problem of efficient exploration in order to learn an accurate model of an environment, modeled as a Markov decision process (MDP). Efficient exploration in this problem requires the agent to identify the regions in which estimating the model is more difficult and then exploit this knowledge to collect more samples there. In this paper, we formalize this problem, introduce the first algorithm to learn an ϵ-accurate estimate of the dynamics, and provide its sample complexity analysis. While this algorithm enjoys strong guarantees in the large-sample regime, it tends to have a poor performance in early stages of exploration. To address this issue, we propose an algorithm that is based on maximum weighted entropy, a heuristic that stems from common sense and our theoretical analysis. The main idea here is cover the entire state-action space with the weight proportional to the noise in the transitions. Using a number of simple domains with heterogeneous noise in their transitions, we show that our heuristic-based algorithm outperforms both our original algorithm and the maximum entropy algorithm in the small sample regime, while achieving similar asymptotic performance as that of the original algorithm."
+featured: false
+publication: "*The 36th Conference on Uncertainty in Artificial Intelligence*"
+url_pdf: "\"https://arxiv.org/abs/2003.03297\""
+---
+

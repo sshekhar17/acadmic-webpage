@@ -1,0 +1,139 @@
+@article{shekhar2017species,
+  title={Species tree estimation using ASTRAL: how many genes are enough?},
+  author={Shekhar, Shubhanshu and Roch, Sebastien and Mirarab, Siavash},
+  journal={IEEE/ACM transactions on computational biology and bioinformatics},
+  volume={15},
+  number={5},
+  pages={1738--1747},
+  year={2017},
+  Date={2017-12-25},
+  publisher={IEEE}, 
+  abstract={Species tree reconstruction from genomic data is increasingly performed using methods that account for sources of gene tree discordance such as incomplete lineage sorting. One popular method for reconstructing species trees from unrooted gene tree topologies is ASTRAL. In this paper, we derive theoretical sample complexity results for the number of genes required by ASTRAL to guarantee reconstruction of the correct species tree with high probability. We also validate those theoretical bounds in a simulation study. Our results indicate that ASTRAL requires O(f -2 log n) gene trees to reconstruct the species tree correctly with high probability where n is the number of species and f is the length of the shortest branch in the species tree. Our simulations, some under the anomaly zone, show trends consistent with the theoretical bounds and also provide some practical insights on the conditions where ASTRAL works well.
+}, 
+  URL={"https://ieeexplore.ieee.org/abstract/document/8053780/"}
+}
+
+
+@article{shekhar2018gaussian,
+  title={Gaussian process bandits with adaptive discretization},
+  author={Shekhar, Shubhanshu and Javidi, Tara and others},
+  journal={Electronic Journal of Statistics},
+  volume={12},
+  number={2},
+  pages={3829--3874},
+  year={2018},
+  Date={2018-04-01},
+  publisher={The Institute of Mathematical Statistics and the Bernoulli Society}, 
+  abstract={In this paper, the problem of maximizing a black-box function f:X→R is studied in the Bayesian framework with a Gaussian Process prior. In particular, a new algorithm for this problem is proposed, and high probability bounds on its simple and cumulative regret are established. The query point selection rule in most existing methods involves an exhaustive search over an increasingly fine sequence of uniform discretizations of X. The proposed algorithm, in contrast, adaptively refines X which leads to a lower computational complexity, particularly when X is a subset of a high dimensional Euclidean space. In addition to the computational gains, sufficient conditions are identified under which the regret bounds of the new algorithm improve upon the known results. Finally, an extension of the algorithm to the case of contextual bandits is proposed, and high probability bounds on the contextual regret are presented.
+
+}, 
+  URL={"https://projecteuclid.org/euclid.ejs/1543892564"}
+}
+
+@inproceedings{shekhar2019multiscale,
+  title={Multiscale Gaussian Process Level Set Estimation},
+  author={Shekhar, Shubhanshu and Javidi, Tara},
+  booktitle={The 22nd International Conference on Artificial Intelligence and Statistics},
+  pages={3283--3291},
+  year={2019}, 
+  Date={2019-01-01},
+  abstract={In this paper, the problem of estimating the level set of a black-box function from noisy and expensive evaluation queries is considered. A new algorithm for this problem in the Bayesian framework with a Gaussian Process (GP) prior is proposed. The proposed algorithm employs a hierarchical sequence of partitions to explore different regions of the search space at varying levels of detail depending upon their proximity to the level set boundary. It is shown that this approach results in the algorithm having a low complexity implementation whose computational cost is significantly smaller than the existing algorithms for higher dimensional search space \X. Furthermore, high probability bounds on a measure of discrepancy between the estimated level set and the true level set for the the proposed algorithm are obtained, which are shown to be strictly better than the existing guarantees for a large class of GPs.In the process, a tighter characterization of the information gain of the proposed algorithm is obtained which takes into account the structured nature of the evaluation points. This approach improves upon the existing technique of bounding the information gain with maximum information gain.
+}, 
+  URL={"http://proceedings.mlr.press/v89/shekhar19a.html"}
+}
+
+
+@inproceedings{shekhar2019adaptive,
+  title={Adaptive Sampling for Estimating Multiple Probability Distributions},
+  author={Shekhar, Shubhanshu and Ghavamzadeh, Mohammad and Javidi, Tara},
+  booktitle={The 37th International Conference on Machine
+Learning},
+  year={2020},
+  Date={2020-05-01}, 
+  abstract={We consider the problem of allocating samples to a finite set of discrete distributions in order to learn them uniformly well in terms of four common distance measures: ℓ22, ℓ1, f-divergence, and separation distance. To present a unified treatment of these distances, we first propose a general optimistic tracking algorithm and analyze its sample allocation performance w.r.t.~an oracle. We then instantiate this algorithm for the four distance measures and derive bounds on the regret of their resulting allocation schemes. We verify our theoretical findings through some experiments. Finally, we show that the techniques developed in the paper can be easily extended to the related setting of minimizing the average error (in terms of the four distances) in learning a set of distributions.
+}, 
+  URL={"https://arxiv.org/abs/1910.12406"}
+}
+
+
+@inproceedings{shekhar2019active,
+  title={Active learning for binary classification with abstention},
+  author={Shekhar, Shubhanshu and Ghavamzadeh, Mohammad and Javidi, Tara},
+  booktitle={IEEE International Symposium
+on Information Theory},
+  year={2020}, 
+  Date={2020-04-01},
+  URL={"https://arxiv.org/abs/1906.00303"}, 
+  abstract={We construct and analyze active learning algorithms for the problem of binary classification
+with abstention. We consider three abstention settings: fixed-cost and two variants of boundedrate abstention, and for each of them propose an active learning algorithm. All the proposed
+algorithms can work in the most commonly used active learning models, i.e., membership-query,
+pool-based, and stream-based sampling. We obtain upper-bounds on the excess risk of our
+algorithms in a general non-parametric framework, and establish their minimax near-optimality
+by deriving matching lower-bounds. Since our algorithms rely on the knowledge of some
+smoothness parameters of the regression function, we then describe a new strategy to adapt
+to these unknown parameters in a data-driven manner. Since the worst case computational
+complexity of our proposed algorithms increases exponentially with the dimension of the
+input space, we conclude the paper with a computationally efficient variant of our algorithm
+whose computational complexity has a polynomial dependence over a smaller but rich class of
+learning problems}
+}
+
+
+@inproceedings{lalitha2018fully,
+  title={Fully decentralized federated learning},
+  author={Lalitha, Anusha and Shekhar, Shubhanshu and Javidi, Tara and Koushanfar, Farinaz},
+  booktitle={Third workshop on Bayesian Deep Learning (NeurIPS)},
+  year={2018}, 
+  Date={2018-11-01},
+  URL={"http://bayesiandeeplearning.org/2018/papers/140.pdf"}, 
+  abstract={We consider the problem of training a machine learning model over a network of
+users in a fully decentralized framework. The users take a Bayesian-like approach
+via the introduction of a belief over the model parameter space. We propose a
+distributed learning algorithm in which users update their belief by aggregate information from their one-hop neighbors to learn a model that best fits the observations
+over the entire network. In addition, we also obtain sufficient conditions to ensure
+that the probability of error is small for every user in the network. Finally, we
+discuss approximations required for applying this algorithm for training Neural
+Networks.}
+}
+
+
+
+@online{shekhar2020multi,
+  title={Multi-Scale Zero-Order Optimization of Smooth Functions in an RKHS},
+  author={Shekhar, Shubhanshu and Javidi, Tara},
+  journal={Preprint},
+  year={2020}, 
+  Date={2020-06-01},
+  URL={"https://arxiv.org/abs/2005.04832"},
+  abstract={We aim to optimize a black-box function f : X→ R under the assumption that f is H¨older smooth and
+has bounded norm in the Reproducing Kernel Hilbert Space (RKHS) associated with a given kernel K. This
+problem is known to have an agnostic Gaussian Process (GP) bandit interpretation in which an appropriately
+constructed GP surrogate model with kernel K is used to obtain an upper confidence bound (UCB) algorithm.
+In this paper, we propose a new algorithm (LP-GP-UCB) where the usual GP surrogate model is augmented with Local Polynomial (LP) estimators of the H¨older smooth function f to construct a multi-scale upper confidence bound guiding the search for the optimizer. We analyze this algorithm and derive high probability bounds on its simple and cumulative regret. We then prove that the elements of many common reproducing kernel
+Hilbert spaces are H¨older smooth and obtain the corresponding H¨older smoothness parameters, and hence, specialize our regret bounds for several commonly used and practically relevant kernels. When specialized to the Squared Exponential (SE) kernel, LP-GP-UCB matches the optimal performance, while for the case of Mat´ern kernels (Kν)ν>0, it results in uniformly tighter regret bounds for all values of the smoothness parameter ν > 0. Most notably, for certain ranges of ν, the algorithm achieves near-optimal bounds on simple and cumulative regrets, matching the algorithm-independent lower bounds up to poly-logarithmic factors, and thus closing the large gap between the existing upper and lower bounds for these values of ν. Additionally, our analysis provides the first explicit regret bounds, in terms of the budget n, for the Rational-Quadratic (RQ) and Gamma-Exponential (GE). Finally, experiments with synthetic functions as well as a Convolutional Neural Network hyperparameter tuning task demonstrate the practical benefits of our multi-scale partitioning approach over some existing algorithms numerically.}
+}
+
+
+@inproceedings{tarbouriech2020active,
+  title={Active Model Estimation in Markov Decision Processes},
+  author={Tarbouriech, Jean and Shekhar, Shubhanshu and Pirotta, Matteo and Ghavamzadeh, Mohammad and Lazaric, Alessandro},
+  booktitle={The 36th Conference on Uncertainty in Artificial Intelligence},
+  year={2020}, 
+  Date={2020-03-01},
+  URL={"https://arxiv.org/abs/2003.03297"}, 
+  abstract={We study the problem of efficient exploration in order to learn an accurate model of an environment, modeled as a Markov decision process (MDP). Efficient exploration in this problem requires the agent to identify the regions in which estimating the model is more difficult and then exploit this knowledge to collect more samples there. In this paper, we formalize this problem, introduce the first algorithm to learn an ϵ-accurate estimate of the dynamics, and provide its sample complexity analysis. While this algorithm enjoys strong guarantees in the large-sample regime, it tends to have a poor performance in early stages of exploration. To address this issue, we propose an algorithm that is based on maximum weighted entropy, a heuristic that stems from common sense and our theoretical analysis. The main idea here is cover the entire state-action space with the weight proportional to the noise in the transitions. Using a number of simple domains with heterogeneous noise in their transitions, we show that our heuristic-based algorithm outperforms both our original algorithm and the maximum entropy algorithm in the small sample regime, while achieving similar asymptotic performance as that of the original algorithm.
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
