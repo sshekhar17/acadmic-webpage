@@ -62,7 +62,7 @@ Our work in this area was motivated by the following informal idea:
 
  Our main contributions were: 
 
-* We constructed two Gaussian Processes for which we showed that the $\gamma\_n$ based bounds were very loose. 
+* Following the above intuition, we first constructed two Gaussian Processes for which we showed that the $\gamma\_n$ based bounds were very loose. 
 
 * Next, we proposed an algorithm which constructs a non-uniform partition of the input space and focuses sampling in the near optimal regions. For this algorithm we obtained bounds on $\mathcal{R}_n$ which were tighter than the existing results. In particular, we obtained the __first sublinear regret bounds__ for the exponential kernel, and __strictly better regret bounds for Matern kernels__ when $D>\nu-1$, where $D$ is the dimension of the input space, and $\nu$ is the smoothness parameter of the Matern kernel. 
 

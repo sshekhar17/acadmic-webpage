@@ -59,7 +59,7 @@ In <span style="color:blue"> (Shekhar et al., 2019)[^shekhar2019]</span>, we pro
 
 
 #### Learning MDP models
-An obtacle in applying the above ideas to learn MDP models, i.e., the $S \times A$ conditional distributions, is that we cannot draw observe arbitrary state-action trasitions in an MDP. This can be addressed by designing policies which spend an appropriate proportion of the time in different state-action pairs, as proposed in <span style="color:blue">(Tarbouriech & Lazaric, 2019)[^tar1]</span>. In <span style="color:blue">(Tarbouriech et al. 2020)[^tar2]</span>, we took this approach and proposed an algorithm and derived sample complexity results of estimating the model of a finite MDP with $\epsilon$ accuracy. Next, we also proposed a heuristic exploration strategy, based on weighted maximum entropy, which outperforms some baselines in experiments
+An obstacle in applying the above ideas to learn MDP models, i.e., the $S \times A$ conditional distributions, is that we cannot  observe arbitrary state-action trasitions in an MDP. This can be addressed by designing policies which spend an appropriate proportion of the time in different state-action pairs, as proposed in <span style="color:blue">(Tarbouriech & Lazaric, 2019)[^tar1]</span>. In <span style="color:blue">(Tarbouriech et al. 2020)[^tar2]</span>, we took this approach and proposed an algorithm and derived sample complexity results of estimating the model of a finite MDP with $\epsilon$ accuracy. Next, we also proposed a heuristic exploration strategy, based on weighted maximum entropy, which outperforms some baselines in experiments. 
 
 ### References
 
