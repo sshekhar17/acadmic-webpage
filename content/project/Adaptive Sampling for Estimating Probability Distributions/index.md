@@ -7,7 +7,7 @@ authors: []
 tags: ["Adaptive Sampling", "Bandits"]
 categories: ["Active Learning", "Reinforcement Learning"]
 date: 2020-06-22T02:09:31-07:00
-
+weight: 20
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 

@@ -73,4 +73,4 @@ user_groups:
 
 I am a Ph.D. candidate in the ECE Department at University of California, San Diego advised by Prof. Tara Javidi. My research interests lie in the general areas of maching learning and sequential decision making. In particular, I have worked on the topics of Bayesian Optimization, Active Learning and Reinforcement Learning. 
 
-
+[Summary of Research](/summary)

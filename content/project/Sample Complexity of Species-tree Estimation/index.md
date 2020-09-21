@@ -7,6 +7,7 @@ authors: []
 tags: ["ASTRAL", "Phylogenetics"]
 categories: ["Computational Biology"]
 date: 2020-06-22T02:10:42-07:00
+weight: 50
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

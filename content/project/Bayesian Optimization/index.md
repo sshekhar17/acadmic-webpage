@@ -7,7 +7,7 @@ authors: []
 tags: ["Bayesian Optimization", "GP Bandits", "Hyperparameter Tuning"]
 categories: ["Optimization", "Bandits"]
 date: 2020-06-22T02:02:52-07:00
-
+weight: 10
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 

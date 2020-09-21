@@ -8,6 +8,7 @@ authors: []
 tags: ["RKHS", "Holder Spaces", "Hyperparameter Tuning"]
 categories: ["Bandits", "Optimization"]
 date: 2020-06-22T02:08:26-07:00
+weight: 30
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

@@ -7,6 +7,7 @@ authors: []
 tags: ["minmax", "abstention", "classification"]
 categories: ["Active Learning", "Learning Theory"]
 date: 2020-06-22T02:08:54-07:00
+weight: 40
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

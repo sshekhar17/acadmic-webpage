@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "[Summary of research>>](/summary)"
 
 [content]
   # Page type to display. E.g. project.
