@@ -51,9 +51,9 @@ subtitle = ""
 +++
 I have served as a TA for the following courses. 
 
-* ECE 158A [(Data Networks)](http://www.ucsd.edu/catalog/courses/ECE.html#ece158a), Fall 2016
-* ECE 257A [(Graduate Communication Networks)](http://www.ucsd.edu/catalog/courses/ECE.html#ece257a), Winter 2017
-* ECE 272A [(Dynamical Systems)](http://www.ucsd.edu/catalog/courses/ECE.html#ece272a), Winter 2018
 * ECE 101 [(Linear System Fundamentals)](http://www.ucsd.edu/catalog/courses/ECE.html#ece101), Spring 2018 
 * ECE 153 [(Probability and Random Processes)](http://www.ucsd.edu/catalog/courses/ECE.html#ece153), Fall 2018 
+* ECE 158A [(Data Networks)](http://www.ucsd.edu/catalog/courses/ECE.html#ece158a), Fall 2016
+* ECE 257A [(Graduate Communication Networks)](http://www.ucsd.edu/catalog/courses/ECE.html#ece257a), Winter 2017
 * ECE 267 [(Network Algorithms and Analysis)](http://www.ucsd.edu/catalog/courses/ECE.html#ece267), Winter 2019 
+* ECE 272A [(Dynamical Systems)](http://www.ucsd.edu/catalog/courses/ECE.html#ece272a), Winter 2018

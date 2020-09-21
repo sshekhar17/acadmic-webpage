@@ -59,7 +59,7 @@ subtitle = "Selected list of graduate coursework in ECE and Math departments"
 * Wave Theory of Information 
 * Detection and Estimation Theory 
 * Convex Optimization and Applications 
-* Stochastic Processes in Dynamic Systems
+* Stochastic Processes in Dynamical Systems
 
 
 

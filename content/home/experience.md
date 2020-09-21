@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2019-06-17"
   date_end = "2019-09-20"
   description = """
-  I worked on the design and analysis of an adaptive sampling scheme for estimating 
+  Worked on the design and analysis of an adaptive sampling scheme for estimating 
    probability distributions uniformly well in terms of several commonly used distance 
   measures.
   """

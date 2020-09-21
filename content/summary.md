@@ -15,7 +15,7 @@ I have worked on the design and analysis of information acquisition strategies f
 Besides these, I have also worked on some other problems such as phylogenetic reconstruction and control of parallel queues which are described in the <span style="color:DarkRed"> "Other Results"</span> section below. 
 
 
-### 1. Sequential Model Based Optimization (SMBO).
+### 1. Sequential Model Based Optimization (SMBO)
 In SMBO, the goal of an agent is to design an adaptive strategy to query a noisy and expensive black-box function $f:\mathcal{X}=[0,1]^d\mapsto \mathbb{R}$,   guided by a surrogate model to efficiently learn about its maximizer. 
 Most algorithms in this area use Gaussian Processes~(GPs) as surrogates, and  are analyzed either in the fully Bayesian framework~(Bayesian Optimization) or in the frequentist setting~(Kernelized Bandits).
 _In my research in this area, I have proposed new algorithms with the best-known theoretical guarantees and lower computational complexity and also derived   algorithm-independent impossibility results characterizing the fundamental performance limits_. 
@@ -48,7 +48,7 @@ In <span style="color:green"> (Shekhar and Javidi, 2019) </span>[^sj2019], we pr
     Classification with abstention refers to the classification problems in which the learner can also abstain from declaring a label, i.e., a *"don't know"* option. It  models  several applications such as  medical diagnostic systems,  voice assistant devices and content filtering. In <span style="color:green"> (Shekhar, Ghavamzadeh and Javidi, 2020) </span>[^sgj2020], we proposed  the first active learning algorithm for this problem and __precisely characterized the benefits of active over passive learning   for this problem__. We first obtained information-theoretic lower bound of $ \Omega(n^{-\beta(\alpha+1)/(2\beta + d + \alpha\beta)})$ for the excess risk of any passive algorithm~(here $\alpha$ and $\beta$ are the _margin_ and _smoothness_ parameters resp.). Then, we showed that the corresponding minmax rate in the active setting is $\Theta\left( n^{-\beta(1+\alpha)/(d+2\beta)}\right)$.
 
 
-### 2. Adaptive Resource Allocation.
+### 3. Adaptive Resource Allocation
 
 In the next project, I worked on the problem of [adaptive resource allocation](https://arxiv.org/abs/1412.6613) among $K$ probability distributions to estimate all of them uniformly well. 
 This is motivated by the problem of constructing a uniformly accurate model of the transition structure of an unknown Markov Decision Process (MDP), given a finite exploration budget. 
