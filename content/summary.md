@@ -67,7 +67,7 @@ Besides my work on sequential learning and optimization described above, I have 
 
 * [Sample Complexity of Species-Tree Estimation](/project/sample-complexity-of-species-tree-estimation/). In <span style="color:green"> (Shekhar, Roch and Mirarab, 2018) </span> [^srm2018] we showed that $\Theta (f^{-2} \log n)$ gene trees are both necessary and sufficient for efficiently reconstructing the underlying species tree for the popular reconstruction algorithm ASTRAL. Here $f$ is the length of the shortest branch and $n$ is the number of leaves (i.e., extant species). 
 
-* [Control of Parallel Queues with Observation Delay.](/Queues.pdf) In <span style="color:green"> (Shekhar, 2017) </span> [^S], we obtained the optimal policy for a system of parallel queues with one server under a fixed observation delay $D>0$. The optimal policy is the one which allocates the server to the queue whose occupancy stochastically dominates that of all other queues. This result generalizes the Longest Connected First (LCF) policy of Tassiulas and Ephreimedes~(1993) to the case of delayed observations. 
+* [Control of Parallel Queues with Observation Delay.](/Queues.pdf) In <span style="color:green"> (Shekhar, 2017) </span> [^S], we obtained the optimal policy for a system of parallel queues with one server under a fixed observation delay $D>0$. The optimal policy is the one which allocates the server to the queue whose occupancy stochastically dominates that of all other queues. This result generalizes the Longest Connected First (LCF) policy of Tassiulas and Ephremides~(1993) to the case of delayed observations. 
 
 
 
